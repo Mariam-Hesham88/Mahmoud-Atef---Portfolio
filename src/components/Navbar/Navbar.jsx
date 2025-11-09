@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-scroll'
 import style from './Navbar.module.css'
-import doc from '../../assets/files/Mariam-Hesham-CV.pdf'
+import MyDocument from '../../assets/files/Mariam-Hesham-CV.pdf'
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -42,7 +42,7 @@ export default function Navbar() {
                   to={section}
                   spy={true}
                   smooth={true}
-                  offset={-100} 
+                  offset={-100}
                   duration={300}
                   onClick={handleCloseMenu}
                   className="block text-white capitalize py-2 px-3 rounded-sm cursor-pointer hover:text-background transition-all duration-300"
@@ -53,7 +53,7 @@ export default function Navbar() {
             ))}
           </ul>
         </div>
-        
+
         <div className={`${isOpen ? "block" : "hidden"} w-full md:block md:w-auto pt-2 lg:pt-0`} id="navbar-default">
           <ul className="font-medium flex flex-row flex-wrap items-center p-4 pe-0 md:p-0 md:space-x-8 rtl:space-x-reverse">
             <li>
@@ -79,9 +79,10 @@ export default function Navbar() {
             </li>
             <li>
               <button className='btn text-primary bg-background'>
-                <a href={doc} download="Mariam-Hesham-CV.pdf">
+                <PDFDownloadLink document={<MyDocument />} fileName="Mariam-Hesham-CV.pdf">
+                  <i className="fa-solid fa-arrow-down text-white me-2"></i>
                   Download CV
-                </a>
+                </PDFDownloadLink>
               </button>
             </li>
           </ul>

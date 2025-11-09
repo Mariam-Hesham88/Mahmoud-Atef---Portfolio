@@ -1,7 +1,7 @@
 import React from 'react'
 import style from './Home.module.css'
 import mariam from '../../assets/images/mariam1.png'
-import doc from '../../assets/files/Mariam-Hesham-CV.pdf'
+import MyDocument from '../../assets/files/Mariam-Hesham-CV.pdf'
 
 export default function Home() {
   return (
@@ -24,10 +24,13 @@ export default function Home() {
         </p>
 
         <div className="flex flex-wrap justify-center md:justify-start gap-4">
-          <a href={doc} download="Mariam-Hesham-CV.pdf" className="hover:scale-110 transition-all btn bg-primary text-white px-6 py-3 rounded-xl">
+          <PDFDownloadLink
+            document={<MyDocument/>}
+            fileName="Mariam-Hesham-CV.pdf"
+            className="hover:scale-110 transition-all bg-primary text-white px-6 py-3 rounded-xl inline-flex items-center">
             <i className="fa-solid fa-arrow-down text-white me-2"></i>
             Download CV
-          </a>
+          </PDFDownloadLink>
 
           <a href="https://wa.me/201066135369" target="_blank" rel="noopener noreferrer"
             className="hover:scale-110 transition-all btn bg-background border border-primary text-primary px-6 py-3 rounded-xl flex items-center gap-2">
