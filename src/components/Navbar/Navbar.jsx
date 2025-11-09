@@ -78,7 +78,7 @@ export default function Navbar() {
             </li>
             <li>
               <button className='btn text-primary bg-background'>
-                <a href={`/Mariam-Hesham-CV.pdf`} target='_blank' fileName="Mariam-Hesham-CV.pdf">
+                <a href='https://drive.google.com/drive/u/0/folders/13ZS75_XMliP_uREfpor7LvpSpveh8VOd'  target='_blank' fileName="Mariam-Hesham-CV.pdf">
                   Download CV
                 </a>
               </button>

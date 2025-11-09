@@ -25,7 +25,7 @@ export default function Home() {
         <div className="flex flex-wrap justify-center md:justify-start gap-4">
           <a
             target='_blank'
-            href={`/Mariam-Hesham-CV.pdf`}
+            href='https://drive.google.com/drive/u/0/folders/13ZS75_XMliP_uREfpor7LvpSpveh8VOd'
             fileName="Mariam-Hesham-CV.pdf"
             className="hover:scale-110 transition-all bg-primary text-white px-6 py-3 rounded-xl inline-flex items-center">
             <i className="fa-solid fa-arrow-down text-white me-2"></i>
