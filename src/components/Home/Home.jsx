@@ -1,7 +1,6 @@
 import React from 'react'
 import style from './Home.module.css'
 import mariam from '../../assets/images/mariam1.png'
-import MyDocument from '../../assets/files/Mariam-Hesham-CV.pdf'
 
 export default function Home() {
   return (
@@ -25,7 +24,7 @@ export default function Home() {
 
         <div className="flex flex-wrap justify-center md:justify-start gap-4">
           <PDFDownloadLink
-            document={<MyDocument/>}
+            document={`/Mariam-Hesham-CV.pdf`}
             fileName="Mariam-Hesham-CV.pdf"
             className="hover:scale-110 transition-all bg-primary text-white px-6 py-3 rounded-xl inline-flex items-center">
             <i className="fa-solid fa-arrow-down text-white me-2"></i>

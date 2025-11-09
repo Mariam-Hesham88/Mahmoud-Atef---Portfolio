@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-scroll'
 import style from './Navbar.module.css'
-import MyDocument from '../../assets/files/Mariam-Hesham-CV.pdf'
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -79,7 +78,7 @@ export default function Navbar() {
             </li>
             <li>
               <button className='btn text-primary bg-background'>
-                <PDFDownloadLink document={<MyDocument />} fileName="Mariam-Hesham-CV.pdf">
+                <PDFDownloadLink document={`/Mariam-Hesham-CV.pdf`} fileName="Mariam-Hesham-CV.pdf">
                   <i className="fa-solid fa-arrow-down text-white me-2"></i>
                   Download CV
                 </PDFDownloadLink>
