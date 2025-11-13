@@ -26,7 +26,6 @@ export default function Home() {
           <a
             target='_blank'
             href='https://drive.google.com/drive/u/0/folders/13ZS75_XMliP_uREfpor7LvpSpveh8VOd'
-            fileName="Mariam-Hesham-CV.pdf"
             className="inline-flex items-center px-6 py-3 text-white transition-all hover:scale-110 bg-primary rounded-xl">
             View CV
           </a>
