@@ -4,10 +4,10 @@ import mariam from '../../assets/images/mariam1.png'
 
 export default function Home() {
   return (
-    <section className="w-full min-h-screen flex flex-col-reverse md:flex-row justify-center items-center px-6 md:px-12 py-20 md:py-0">
+    <section className="flex flex-col-reverse items-center justify-center w-full min-h-screen px-6 py-20 md:flex-row md:px-12 md:py-0">
 
-      <div className="w-full md:w-1/2 text-center md:text-left mt-10 md:mt-0">
-        <h1 className="mainTitle pb-5 text-3xl sm:text-4xl md:text-5xl font-bold">
+      <div className="w-full mt-10 text-center md:w-1/2 md:text-left md:mt-0">
+        <h1 className="pb-5 text-3xl font-bold mainTitle sm:text-4xl md:text-5xl">
           Hey! I'm Mariam <span className="wave">👋</span>
         </h1>
 
@@ -15,32 +15,31 @@ export default function Home() {
           Frontend Developer
         </h3>
 
-        <p className="paragraph pt-4 pb-5 text-sm sm:text-base leading-7 slideInLeft">
+        <p className="pt-4 pb-5 text-sm leading-7 paragraph sm:text-base slideInLeft">
           A passionate Frontend Developer who loves developing modern, responsive,
           and user-friendly web applications. I enjoy learning new technologies and
           bringing creative ideas to life using
-          <span className="text-primary font-medium"> Angular, React.JS, Next.JS</span> and modern web tools.
+          <span className="font-medium text-primary"> Angular, React.JS, Next.JS</span> and modern web tools.
         </p>
 
-        <div className="flex flex-wrap justify-center md:justify-start gap-4">
+        <div className="flex flex-wrap justify-center gap-4 md:justify-start">
           <a
             target='_blank'
             href='https://drive.google.com/drive/u/0/folders/13ZS75_XMliP_uREfpor7LvpSpveh8VOd'
             fileName="Mariam-Hesham-CV.pdf"
-            className="hover:scale-110 transition-all bg-primary text-white px-6 py-3 rounded-xl inline-flex items-center">
-            <i className="fa-solid fa-arrow-down text-white me-2"></i>
-            Download CV
+            className="inline-flex items-center px-6 py-3 text-white transition-all hover:scale-110 bg-primary rounded-xl">
+            View CV
           </a>
 
           <a href="https://wa.me/201066135369" target="_blank" rel="noopener noreferrer"
-            className="hover:scale-110 transition-all btn bg-background border border-primary text-primary px-6 py-3 rounded-xl flex items-center gap-2">
+            className="flex items-center gap-2 px-6 py-3 transition-all border hover:scale-110 btn bg-background border-primary text-primary rounded-xl">
             <i className="fa-brands fa-whatsapp text-primary text-[18px]"></i>
             WhatsApp
           </a>
         </div>
       </div>
 
-      <div className="w-full md:w-1/2 flex justify-center items-center mb-10 md:mb-0">
+      <div className="flex items-center justify-center w-full mb-10 md:w-1/2 md:mb-0">
         <div className="shape bg-primary">
           <img src={mariam} alt="Mariam" className='w-full' />
         </div>
