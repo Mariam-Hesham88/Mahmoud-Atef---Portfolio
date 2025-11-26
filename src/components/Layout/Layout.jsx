@@ -4,7 +4,7 @@ import Navbar from '../Navbar/Navbar'
 import Home from '../Home/Home'
 import Skills from '../Skills/Skills'
 import Footer from '../Footer/Footer'
-import Education from '../Education/Education'
+import Experience from '../Experience/Experience'
 import Projects from '../Projects/Projects'
 import About from '../About/About'
 import Contact from '../Contact/Contact'
@@ -14,7 +14,7 @@ export default function Layout() {
       <Navbar/>
       <section id="home"><Home/></section>
       <section id="about"><About/></section>
-      <section id="education"><Education/></section>
+      <section id="experience"><Experience/> </section>
       <section id="skills"><Skills/></section>
       <section id="projects"><Projects/></section>
       <section id="contact"><Contact/></section>

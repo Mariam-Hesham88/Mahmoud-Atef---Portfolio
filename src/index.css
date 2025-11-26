@@ -29,10 +29,17 @@ body{
   font-family: "Roboto", sans-serif;;
 }
 
+.hero{
+  background-image: url(../src/assets/images/mahmoud29.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+}
+
 .mainTitle {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 66px;
+  font-size: 150px;
   line-height: 48px;
 }
 
@@ -70,15 +77,12 @@ body{
 
 
 .paragraph {
-  color: var(--smothText);
   font-weight: 400;
   font-size: 18px;
-  line-height: 25px;
-  letter-spacing: 1.5px;
+  line-height: 24px;
 }
 
 .cardParagraph {
-  color: var(--smothText);
   font-weight: 400;
   font-size: 16px;
   line-height: 25px;
@@ -91,11 +95,6 @@ body{
   border: 0;
 }
 
-.shape {
-  /* border-radius: 57% 43% 70% 30% / 48% 79% 21% 52% ; */
-  border-radius: 56% 44% 53% 47% / 62% 72% 28% 38%;
-}
-
 .cr {
   cursor: pointer;
 }
@@ -104,47 +103,9 @@ body{
   border-bottom: 1px solid #ffffff;
 }
 
-.wave {
-  display: inline-block;
-  transform-origin: 70% 70%;
-  animation: waveHand 2s infinite;
-}
-
-@keyframes waveHand {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  10% {
-    transform: rotate(14deg);
-  }
-
-  20% {
-    transform: rotate(-8deg);
-  }
-
-  30% {
-    transform: rotate(14deg);
-  }
-
-  40% {
-    transform: rotate(-4deg);
-  }
-
-  50% {
-    transform: rotate(10deg);
-  }
-
-  60%,
-  100% {
-    transform: rotate(0deg);
-  }
-}
-
 .slideInLeft {
   opacity: 0;
   transform: translateX(-40px);
-  animation: slideIn 1s ease forwards;
 }
 
 @keyframes slideIn {
@@ -152,14 +113,14 @@ body{
     opacity: 0;
     transform: translateX(-40px);
   }
-
   100% {
     opacity: 1;
     transform: translateX(0);
   }
 }
 
+
 .icon {
-  top: -6%;
+  top: 8%;
   left: -6%;
 }
