@@ -1,5 +1,5 @@
 import React from "react";
-import mahmoud from "../../assets/images/mahmoud8.jpg";
+import mahmoud from "../../assets/images/mahmoud2.jpg";
 
 export default function About() {
   let paragraph = [
@@ -10,7 +10,7 @@ export default function About() {
   return (
     <>
       <section className="flex justify-center py-20 bg-misty">
-        <div className="flex flex-col-reverse items-center justify-center w-full gap-10 px-4 md:flex-row md:w-5/6 md:px-0">
+        <div className="flex flex-col-reverse items-center justify-center w-full px-4 md:flex-row md:w-5/6 md:px-0">
           {/* Text Content */}
           <div className="flex flex-col w-full p-12 text-white bg-secondary md:rounded-s-3xl md:w-2/3">
             <h1 className="pb-8 text-3xl font-bold text-white secondTitle md:text-4xl">
@@ -29,7 +29,7 @@ export default function About() {
             <img
               src={mahmoud}
               alt="Mahmoud"
-              className="w-[90%] md:w-[75%] md:rounded-e-3xl border-4 border-secondary"
+              className="w-full md:w-[75%] md:rounded-e-3xl border-4 border-secondary"
             />
           </div>
         </div>

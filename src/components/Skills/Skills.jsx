@@ -34,7 +34,6 @@ let toolsVersionControl = [
   "git-Hub",
   "JWT",
   "SQL Tools",
-  "AutoMapper",
   "Agile/Scrum Methodologies",
 ];
 let softSkills = [
@@ -66,7 +65,7 @@ export default function Skills() {
             {backend.map((backend, index) => (
               <span
                 key={index}
-                className="cr capitalize text-center rounded-lg bg-smokey text-white py-2 px-4 hover:scale-110 transition-all duration-[.3s]"
+                className="cr capitalize text-center rounded-lg bg-secondary text-white py-2 px-4 hover:scale-110 transition-all duration-[.3s]"
               >
                 {backend}
               </span>
@@ -84,7 +83,7 @@ export default function Skills() {
             {databases.map((databases, index) => (
               <span
                 key={index}
-                className="cr capitalize text-center rounded-lg bg-smokey text-white py-2 px-4 hover:scale-110 transition-all duration-[.3s]"
+                className="cr capitalize text-center rounded-lg bg-secondary text-white py-2 px-4 hover:scale-110 transition-all duration-[.3s]"
               >
                 {databases}
               </span>
@@ -102,7 +101,7 @@ export default function Skills() {
             {frontend.map((frontend, index) => (
               <span
                 key={index}
-                className="cr capitalize text-center rounded-lg bg-smokey text-white py-2 px-4 hover:scale-110 transition-all duration-[.3s]"
+                className="cr capitalize text-center rounded-lg bg-secondary text-white py-2 px-4 hover:scale-110 transition-all duration-[.3s]"
               >
                 {frontend}
               </span>
@@ -120,7 +119,7 @@ export default function Skills() {
             {toolsVersionControl.map((tool, index) => (
               <span
                 key={index}
-                className="cr capitalize text-center rounded-lg bg-smokey text-white py-2 px-4 hover:scale-110 transition-all duration-[.3s]"
+                className="cr capitalize text-center rounded-lg bg-secondary text-white py-2 px-4 hover:scale-110 transition-all duration-[.3s]"
               >
                 {tool}
               </span>
@@ -138,7 +137,7 @@ export default function Skills() {
             {softSkills.map((skill, index) => (
               <span
                 key={index}
-                className="cr capitalize text-center rounded-lg bg-smokey text-white py-2 px-4 hover:scale-110 transition-all duration-[.3s]"
+                className="cr capitalize text-center rounded-lg bg-secondary text-white py-2 px-4 hover:scale-110 transition-all duration-[.3s]"
               >
                 {skill}
               </span>
@@ -146,23 +145,6 @@ export default function Skills() {
           </div>
           </div>
         </div>
-{/* 
-        <div className="w-full rounded-lg border-[2px] border-primary bg-misty px-2">
-          <h3 className="text-center text-primary text-[24px] font-semibold py-4">
-            Soft-Skills
-          </h3>
-          <div className="flex flex-wrap gap-2">
-            {softSkills.map((skill, index) => (
-              <span
-                key={index}
-                className="cr capitalize text-center rounded-lg bg-primary text-white py-2 px-4 hover:scale-110 transition-all duration-[.3s]"
-              >
-                {" "}
-                {skill}{" "}
-              </span>
-            ))}
-          </div>
-        </div> */}
       </section>
     </>
   );

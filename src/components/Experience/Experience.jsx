@@ -48,20 +48,20 @@ export default function Experience() {
   }, []);
 
   return (
-    <section className='flex flex-wrap justify-center w-full pt-12 bg-background'>
+    <section className='flex flex-wrap justify-center w-full pt-12 bg-secondary'>
 
       <div className="w-full p-12 md:w-[80%]">
-        <h1 className='pt-2 pb-8 font-bold secondTitle text-primary'>Work Experience</h1>
+        <h1 className='pt-2 pb-8 font-bold text-white secondTitle'>Work Experience</h1>
 
         {work.map((w, i) => (
-          <div key={w.id} className="relative mb-4 p-8 rounded-3xl border-[2px] border-[solid] border-black">
+          <div key={w.id} className="relative mb-4 p-8 rounded-3xl border-[2px] border-[solid] border-white">
             <span className='absolute -translate-x-1/2 translate-y-1/2 icon'>
-              <i class="fa-solid fa-bars text-[38px]"></i>
+              <i class="fa-solid text-white fa-bars text-[38px]"></i>
             </span>
-            <h3 className='text-primary text-[28px] font-semibold ps-5 md:ps-1 '>{w.company} - {w.role}</h3>
+            <h3 className='text-white text-[28px] font-semibold ps-5 md:ps-1 '>{w.company} - {w.role}</h3>
             <p 
               ref={(el) => paragraphsRef.current[i * 2 + 1] = el}
-              className={`${style.slideInLeft} paragraph text-smokey ps-5 md:ps-1`}>
+              className={`${style.slideInLeft} paragraph ps-5 md:ps-1`}>
               {w.start} - {w.end}
             </p>
             <p 

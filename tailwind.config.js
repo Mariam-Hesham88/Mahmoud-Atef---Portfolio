@@ -8,11 +8,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#1c1b1b",
-        secondary: "#2c2c2c",
-        smokey: "#4f4f4f",
-        fading: "#8A8A8A",
-        misty: "#BFBFBF",
+        primary: "#182F49",
+        secondary: "#29476B",
+        smokey: "#595959",
+        // fading: "#8A8A8A",
+        misty: "#D7D7D7",
+        gold:"E0AA35",
       },
     },
   },
