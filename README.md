@@ -1,10 +1,45 @@
-My Personal Portfolio Website
+# 📌 **README Template (Portfolio for Mahmoud Atef — Backend Developer)**
 
-Hi there! 👋 I'm Mariam Hesham, a Frontend Developer.
-This is my personal portfolio website where I showcase my projects, skills, and experience in building responsive and user-friendly web applications.
+```markdown
+# 💼 Portfolio — Mahmoud Atef (Backend Developer)
 
-I built this website using React, TailwindCSS, and other modern web tools, focusing on clean design and smooth user experience.
+This project is a professional portfolio website created for **Mahmoud Atef**, a Backend Developer.  
+The portfolio showcases his technical skills, projects, experience, and professional background in a clean and modern design.
 
-Feel free to explore my projects and get in touch with me! 💌
+---
 
-GitHub: (https://github.com/Mariam-Hesham88)
+## 🚀 Project Overview
+The portfolio is designed to highlight:
+- Mahmoud’s backend development skills  
+- His main tech stack  
+- The projects he has worked on  
+- Contact information and professional links  
+- A simple and responsive UI  
+
+---
+
+## 🛠️ Tech Stack Used
+- **HTML5 / CSS3 / JavaScript**
+- **React.js**
+- Responsive design techniques
+
+---
+
+## 🎯 Features
+- Fully responsive layout  
+- Clean and professional design  
+- Sections for About, Skills, Projects, and Contact  
+- Easy-to-navigate structure  
+
+---
+
+## 🔗 Live Demo
+You can view the live portfolio here:  
+**  **
+
+---
+
+## 👩‍💻 Developed By
+**Mariam Hesham**  
+Frontend Developer  
+```
