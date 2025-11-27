@@ -111,7 +111,7 @@ const projects = [
         <Slider {...settings}>
           {projects.map((project) => (
             <div className="p-5">
-              <div key={project.id} className="shadow-md item bg-misty border-[2px] border-[#1c1b1b] rounded-t-2xl">
+              <div key={project.id} className="shadow-md item bg-misty border-[2px] border-primary rounded-t-2xl">
                 <div className="p-6">
                   <h2 className='text-smothText font-semibold text-[20px] md:text-[24px] text-center'>
                     {project.title}
@@ -125,7 +125,7 @@ const projects = [
                     ))}
                   </div>
                   <div className="flex justify-center gap-6 pt-3">
-                    <a href={project.gitHubUrl} target='_blank' className="transition-all duration-300 text-smothText hover:scale-125">
+                    <a href={project.gitHubUrl} target='_blank' className="transition-all duration-300 text-secondary text-smothText hover:scale-125">
                       <i className="fa-brands fa-github text-[22px]"></i> View Code
                     </a>
                   </div>

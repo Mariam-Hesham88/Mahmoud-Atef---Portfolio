@@ -2,24 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-
-/* Itim */
-/* @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap'); */
-/* Inter */
-/* @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap'); */
-
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 @import 'flowbite/dist/flowbite.css';
-
-:roote {
-  --primary: #75ADD0,
-    --secondary: #BCD2E9,
-    --background: #E5E1EF,
-    --highlight: #e0a8cd,
-    --smothText: #5B5B5B,
-}
 
 html {
   scroll-behavior: smooth;
